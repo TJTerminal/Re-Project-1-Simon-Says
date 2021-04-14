@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: purple;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    color: purple;
+}
+
+.settingButtons {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    width: 600px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#red {
+    background-color: red;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+#yellow {
+    background-color: yellow;
+    grid-row: 2;
+    grid-column: 1;
+}
+
+#green {
+    background-color: green;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#blue {
+    background-color: blue;
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.buttons {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin: 10px;
+}
